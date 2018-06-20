@@ -1,0 +1,99 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(400px, 400px);
+  font-family: Impact, Charcoal, sans-serif;
+  text-align: center;
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+  line-height: 86px;
+  background-color: #ffcccc;
+  font-size: 60px;
+  color: #FF2F2F;
+}
+.two { 
+  grid-column: 2;
+  grid-row: 1;
+  background-color: #ff8080;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  text-align: left;
+  overflow: auto;
+}
+.three {
+  grid-column: 3;
+  grid-row: 1;
+  background-color: #ff3333;
+  color: #FFCDCD;
+  line-height: 200px;
+  font-size: 76px;
+}
+.four {
+  grid-column: 1;
+  grid-row: 2;
+}
+.five {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: #ff3333;
+  color: #FFCDCD;
+  line-height: 200px;
+  font-size: 76px;
+}
+.six {
+  grid-column: 3;
+  grid-row: 2;
+  background-color: #ff8080;
+  padding: 80px;
+}
+.seven {
+  grid-column: 1;
+  grid-row: 3;
+  background-color: #ff3333;
+  color: #FFCDCD;
+  line-height: 200px;
+  font-size: 76px;
+}
+.eight {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: #ff8080;
+  padding: 5% 10% 0% 10%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  overflow: auto;
+  border: 12px solid black;
+}
+.nine {
+  grid-column: 3;
+  grid-row: 3;
+  background-color: #ffcccc;
+  padding: 10% 5%;
+  font-size: 36px;
+}
+.welcome {
+  border-bottom: 4px solid black;
+  text-align: center;
+}
+.cycling_h1 {
+  color: grey;
+}
+.email {
+  font-size: 26px;
+}
+a:link {
+  color: #FFCDCD;
+  text-decoration: none;
+}
+a:visited {
+    color: #FFCDCD;
+    text-decoration: none;
+}
+a:hover {
+    color: grey;
+    text-decoration: underline;
+}
